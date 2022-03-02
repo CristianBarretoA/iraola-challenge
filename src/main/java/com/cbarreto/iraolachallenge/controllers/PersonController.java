@@ -48,7 +48,7 @@ public class PersonController {
     @PutMapping(path = "/{id}")
     public ResponseEntity<Object> updatePerson(@Valid @RequestBody Person person, @PathVariable Long id) {
         Optional<Person> optionalPerson = personService.getPersonById(id);
-        if (optionalPerson.isEmpty())
+        if (!optionalPerson.isPresent())
             return ResponseEntity.status(HttpStatus.NOT_MODIFIED).body("Person not found");
 
         person.setId(id);
