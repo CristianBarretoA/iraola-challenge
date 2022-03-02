@@ -4,7 +4,7 @@
 
 El Proyecto se encuentra dockerizado, con lo cual se requieren realizar los siguientes pasos para su despliegue
 
-Primero generamos la el JAR del proyecto y lo compiamos al volumen, parar ello en la ruta raiz del proyecto ejecutamos
+Primero generamos la el JAR del proyecto y lo copiamos al volumen, parar ello en la ruta raiz del proyecto ejecutamos
 los siguientes comandos:
 
 ```
