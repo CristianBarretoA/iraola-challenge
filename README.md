@@ -19,3 +19,5 @@ Luego de generado el JAR vamos a levantar el contenedor, para estos nos dirijimo
 ### Endpoints
 
 Todos los endpoints pueden ser visualizado en el siguiente [repositorio](https://documenter.getpostman.com/view/6683968/UVksLtt2) de Postman.
+
+**Puede hacer uso de la ruta https://iraola-challenge.herokuapp.com para usar la aplicacion de manera WEB, esta se encuentra hosteada en Heroku con una Base de datos PGSQL corriendo en Google Cloud**
